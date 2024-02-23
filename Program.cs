@@ -103,6 +103,10 @@ do
 
 } while (readResult == null);
 
+int x = 10;
+int y = 3;
+int z = x%y;
+Console.WriteLine($"{z}");
 
 static void LoadTillEachMorning(int[,] registerDailyStartingCash, int[] cashTill)
 {
